@@ -37,7 +37,7 @@ ALIVE_ANIMATION = [
 
 FIRST_PART_TEXT = "*Hello* `{}` . . ."
 
-PM_START_TEXT = "*Hai, saya adalah bot manajemen grup bertema Anime. Di bangun untuk membantu memudahkan anda mengelola group dan channels*"
+PM_START_TEXT = "*Hai, saya adalah [{}](https://mallucampaign.in/images/img_1708102718.jpg)bot musik sekaligus management grup, yang dibangun untuk membantu mengelola grup Anda dengan banyak fitur yang berguna, jangan ragu untuk menambahkan saya ke grup Anda.*"
 
 START_BTN = [
     [
