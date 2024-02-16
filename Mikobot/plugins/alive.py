@@ -28,19 +28,19 @@ async def alive(_, message: Message):
     }
 
     library_versions_text = "\n".join(
-        [f"➲ **{key}:** `{value}`" for key, value in library_versions.items()]
+        [f"**{key}:** `{value}`" for key, value in library_versions.items()]
     )
 
     caption = f"""**HEY, I AM {BOT_NAME}**
 
-━━━━━━ 🌟✿🌟 ━━━━━━
-✪ **CREATOR:** [🄺🄰🅁🄼🄰](https://t.me/anime_Freakz)
+━━━━━━CREATOR━━━━━━
+**CREATOR:** [𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋](https://t.me/Usern4meDoesNotExist404)
 
 {library_versions_text}
 
-➲ **PYTHON:** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
-➲ **BOT VERSION:** `2.0`
-━━━━━━ 🌟✿🌟 ━━━━━━"""
+**PYTHON:** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
+**BOT VERSION:** `2.0`
+━━━━━━CREATOR━━━━━━"""
 
     await message.reply_animation(
         random.choice(ALIVE_ANIMATION),
