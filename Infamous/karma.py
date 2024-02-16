@@ -47,10 +47,10 @@ START_BTN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="HELP", callback_data="help_back"),
+        InlineKeyboardButton(text="HELP", callback_data=""),
     ],
     [
-        InlineKeyboardButton(text="DETAILS", callback_data="Miko_"),
+        InlineKeyboardButton(text="DETAILS", callback_data=""),
         InlineKeyboardButton(text="AI", callback_data="ai_handler"),
         InlineKeyboardButton(text="𝖨𝖭𝖥𝖮", callback_data="git_source"),
     ],
