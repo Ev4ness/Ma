@@ -413,7 +413,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     if query.data == "git_source":
         source_link = "https://t.me/SpotifyStream_Id"
         message_text = (
-            f"*Tersedia untuk Admin & Moderator:*\n\n/Admincache memperbarui daftar admin dan hak istimewa mereka.\n\n/Pengaturan memungkinkan Anda mengelola semua pengaturan bot dalam grup.\n\n/Ban memungkinkan Anda melarang pengguna dari grup tanpa memberinya kemungkinan untuk bergabung lagi menggunakan tautan grup.\n\n/Mute menempatkan pengguna dalam mode read-only. Dia bisa membaca tetapi dia tidak bisa mengirim pesan apa pun.\n\n/Kick melarang pengguna dari grup, memberinya kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Unban memungkinkan Anda menghapus pengguna dari daftar hitam grup, memberi mereka kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Info memberikan informasi tentang pengguna.\n\n/Admin memberikan daftar lengkap staf grup/admin!."
+            f"*Tersedia untuk Admin & Moderator:*\n\n/admincache memperbarui daftar admin dan hak istimewa mereka.\n\n/settings memungkinkan Anda mengelola semua pengaturan bot dalam grup.\n\n/Ban memungkinkan Anda melarang pengguna dari grup tanpa memberinya kemungkinan untuk bergabung lagi menggunakan tautan grup.\n\n/Mute menempatkan pengguna dalam mode read-only. Dia bisa membaca tetapi dia tidak bisa mengirim pesan apa pun.\n\n/Kick melarang pengguna dari grup, memberinya kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Unban memungkinkan Anda menghapus pengguna dari daftar hitam grup, memberi mereka kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Info memberikan informasi tentang pengguna.\n\n/Admin memberikan daftar lengkap staf grup/admin!."
         )
 
         # Adding the inline button
@@ -463,7 +463,7 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                         InlineKeyboardButton(
                             text="Music", callback_data="Miko_support"
                         ),
-                        InlineKeyboardButton(text="Command", callback_data="help_back"),
+                        InlineKeyboardButton(text="Commands", callback_data="help_back"),
                     ],
                     [
                         InlineKeyboardButton(text="Sistem", callback_data="insider_"),
