@@ -35,7 +35,7 @@ ALIVE_ANIMATION = [
     "https://telegra.ph//file/6efdd8e28756bc2f6e53e.mp4",
 ]
 
-FIRST_PART_TEXT = "*ʜᴇʟʟᴏ* `{}` . . ."
+FIRST_PART_TEXT = "*Hello* `{}` . . ."
 
 PM_START_TEXT = "*Hai, saya adalah bot manajemen grup bertema Anime. Di bangun untuk membantu memudahkan anda mengelola group dan channels*"
 
@@ -47,7 +47,7 @@ START_BTN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="HELP", callback_data=""),
+        InlineKeyboardButton(text="HELP", callback_data="Miko_support"),
     ],
     [
         InlineKeyboardButton(text="DETAILS", callback_data="more_ai_handler"),
