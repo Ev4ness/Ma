@@ -413,7 +413,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     if query.data == "git_source":
         source_link = "https://t.me/SpotifyStream_Id"
         message_text = (
-            f"*Diatas adalah link support group jika ada kesalahan pada bot silahkan konfirmasi ke developer atau group terimakasih.*:\n\n{source_link}"
+            f"*Jika ada pertanyaan silahkan hubungi lewat support chat..*"
         )
 
         # Adding the inline button
@@ -430,7 +430,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 async def repo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     source_link = "https://t.me/SpotifyStream_Id"
-    message_text = f"*Diatas adalah link support group jika ada kesalahan pada bot silahkan konfirmasi ke developer atau group terimakasih.*:\n\n{source_link}"
+    message_text = f"*Diatas adalah link support group jika ada kesalahan pada bot silahkan konfirmasi ke developer atau group terimakasih.*"
 
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
@@ -534,7 +534,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
             return
         await update.effective_message.reply_text(
-            "» Choose an option for getting help.",
+            "Pilih opsi untuk mendapatkan bantuan.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
