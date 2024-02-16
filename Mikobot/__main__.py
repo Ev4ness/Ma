@@ -452,12 +452,13 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     if query.data == "Miko_":
         uptime = get_readable_time((time.time() - StartTime))
         message_text = (
-            f"<b>Ai integration.</b>"
-            f"\n<b>Advance management capability.</b>"
-            f"\n<b>Anime bot functionality.</b>"
+            f"<b>Daftar fitur.</b>"
+            f"\n<b>￫ Saya dapat menyambut pengguna dengan pesan sambutan yang dapat disesuaikan dan bahkan menetapkan aturan grup.</b>"
+            f"\n<b>￫ Saya memiliki sistem anti-banjir canggih.\n￫ Saya dapat memperingatkan pengguna sampai mereka mencapai Max memperingatkan, dengan setiap tindakan yang telah ditentukan seperti larangan, bisu, tendangan, dll.</b>"
+            f"\n<b>￫ Saya memiliki sistem penyimpanan catatan, daftar hitam, dan bahkan balasan yang telah ditentukan pada kata kunci tertentu. Saya memeriksa izin admin sebelum melaksanakan perintah apa pun dan lebih banyak barang.</b>"
             f"\n\n<b>USERS</b> » {sql.num_users()}"
             f"\n<b>CHATS</b> » {sql.num_chats()}"
-            f"\n\n<b>Click on the buttons below for getting help and info about</b> {BOT_NAME}."
+            f"\n\n<b>Klik tombol di bawah untuk mendapatkan bantuan dan informasi tentang</b> {BOT_NAME}."
         )
         await query.message.edit_text(
             text=message_text,
@@ -467,12 +468,12 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="About", callback_data="Miko_support"
+                            text="Music", callback_data="Miko_support"
                         ),
                         InlineKeyboardButton(text="Command", callback_data="help_back"),
                     ],
                     [
-                        InlineKeyboardButton(text="Insider", callback_data="insider_"),
+                        InlineKeyboardButton(text="Sistem", callback_data="insider_"),
                     ],
                     [
                         InlineKeyboardButton(text="◁", callback_data="Miko_back"),
@@ -482,8 +483,8 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
         )
     elif query.data == "Miko_support":
         message_text = (
-            "*Our bot leverages SQL, MongoDB, Telegram, MTProto for secure and efficient operations. It resides on a high-speed server, integrates numerous APIs, ensuring quick and versatile responses to user queries.*"
-            f"\n\n*If you find any bug in {BOT_NAME} Please report it at the support chat.*"
+            "*🎸 Daftar Perintah Music :\n\n/play atau /vplay atau /cplay - Bot akan mulai memutar kueri yang Anda berikan di obrolan suara atau Streaming tautan langsung di obrolan suara.\n\n/playforce atau /vplayforce atau /cplayforce - Force Play menghentikan trek yang sedang diputar di obrolan suara dan mulai memutar trek yang dicari secara instan tanpa mengganggu/menghapus antrean.\n\n/channelplay Nama pengguna atau id obrolan atau Nonaktifkan - Hubungkan saluran ke grup dan streaming musik di obrolan suara saluran dari grup Anda.\n\n/pause atau /cpause - Menjeda pemutaran musik.\n\n/resume atau /cresume- Melanjutkan musik yang dijeda.\n\n/mute atau /cmute- Menonaktifkan musik yang diputar.\n\n/unmute atau /cunmute- Mengaktifkan musik yang dibisukan.\n\n/skip atau /cskip- Lewati musik yang sedang diputar.\n\n/stop atau /cstop- Menghentikan pemutaran musik.\n\n/shuffle atau /cshuffle- Mengacak daftar putar antrean secara acak.\n\n/seek atau /cseek - Teruskan Cari musik sesuai durasi Anda\n\n/seekback atau /cseekback - Mundur Cari musik sesuai durasi Anda.*"
+            f"\n\n*Jika Anda menemukan bug di {BOT_NAME} Silakan laporkan di chat dukungan.*"
         )
         await query.message.edit_text(
             text=message_text,
