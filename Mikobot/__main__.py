@@ -69,21 +69,21 @@ async def ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     if query.data == "ai_handler":
         await query.answer()
         await query.message.edit_text(
-            "🧠 *Artificial Intelligence Functions*:\n\n"
+            "*Artificial Intelligence Functions*:\n\n"
             "All Commands:\n"
-            "➽ /askgpt <write query>: A chatbot using GPT for responding to user queries.\n\n"
-            "➽ /palm <write prompt>: Performs a Palm search using a chatbot.\n\n"
-            "➽ /upscale <reply to image>: Upscales your image quality.",
+            "/askgpt <write query>: A chatbot using GPT for responding to user queries.\n\n"
+            "/palm <write prompt>: Performs a Palm search using a chatbot.\n\n"
+            "/upscale <reply to image>: Upscales your image quality.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            "𝙈𝙊𝙍𝙀 𝙄𝙈𝘼𝙂𝙀 𝙂𝙀𝙉 ➪", callback_data="more_ai_handler"
+                            "More Ai Gen ➪", callback_data="more_ai_handler"
                         ),
                     ],
                     [
-                        InlineKeyboardButton("» 𝙃𝙊𝙈𝙀 «", callback_data="Miko_back"),
+                        InlineKeyboardButton("Home", callback_data="Miko_back"),
                     ],
                 ],
             ),
@@ -116,7 +116,7 @@ async def more_ai_handler_callback(update: Update, context: ContextTypes.DEFAULT
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⇦ 𝘽𝘼𝘾𝙆", callback_data="ai_handler"),
+                        InlineKeyboardButton("⇦ Back", callback_data="ai_handler"),
                     ],
                 ],
             ),
@@ -342,7 +342,7 @@ async def help_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "➲ *HELP SECTION OF* *{}* :\n".format(HELPABLE[module].__mod_name__)
+                "*Help Section Of* *{}* :\n".format(HELPABLE[module].__mod_name__)
                 + HELPABLE[module].__help__
             )
             await query.message.edit_text(
@@ -397,18 +397,18 @@ async def stats_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
         mem = psutil.virtual_memory().percent
         disk = psutil.disk_usage("/").percent
         text = f"""
-𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨@𝙔𝙖𝙚𝙈𝙞𝙠𝙤_𝙍𝙤𝙭𝙗𝙤𝙩
+𝖲𝗂𝗌𝗍𝖾𝗆 𝖲𝗍𝖺𝗍𝗌 :
 ➖➖➖➖➖➖
-UPTIME ➼ {uptime}
-CPU ➼ {cpu}%
-RAM ➼ {mem}%
-DISK ➼ {disk}%
+UPTIME: {uptime}
+CPU: {cpu}%
+RAM: {mem}%
+DISK: {disk}%
 
-PYTHON ➼ {PYTHON_VERSION}
+PYTHON: {PYTHON_VERSION}
 
-PTB ➼ {PTB_VERSION}
-TELETHON ➼ {TELETHON_VERSION}
-PYROGRAM ➼ {PYROGRAM_VERSION}
+PTB: {PTB_VERSION}
+TELETHON: {TELETHON_VERSION}
+PYROGRAM: {PYROGRAM_VERSION}
 """
         await query.answer(text=text, show_alert=True)
 
@@ -418,9 +418,9 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await query.answer()
 
     if query.data == "git_source":
-        source_link = "https://github.com/Infamous-Hydra/YaeMiko"
+        source_link = "https://t.me/SpotifyStream_Id"
         message_text = (
-            f"*Here is the link for the public source repo*:\n\n{source_link}"
+            f"*Diatas adalah link support group jika ada kesalahan pada bot silahkan konfirmasi ke developer atau group terimakasih.*:\n\n{source_link}"
         )
 
         # Adding the inline button
@@ -436,8 +436,8 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 
 async def repo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    source_link = "https://github.com/Infamous-Hydra/YaeMiko"
-    message_text = f"*Here is the link for the public source repo*:\n\n{source_link}"
+    source_link = "https://t.me/SpotifyStream_Id"
+    message_text = f"*Diatas adalah link support group jika ada kesalahan pada bot silahkan konfirmasi ke developer atau group terimakasih.*:\n\n{source_link}"
 
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
@@ -452,9 +452,9 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     if query.data == "Miko_":
         uptime = get_readable_time((time.time() - StartTime))
         message_text = (
-            f"➲ <b>Ai integration.</b>"
-            f"\n➲ <b>Advance management capability.</b>"
-            f"\n➲ <b>Anime bot functionality.</b>"
+            f"<b>Ai integration.</b>"
+            f"\n<b>Advance management capability.</b>"
+            f"\n<b>Anime bot functionality.</b>"
             f"\n\n<b>USERS</b> » {sql.num_users()}"
             f"\n<b>CHATS</b> » {sql.num_chats()}"
             f"\n\n<b>Click on the buttons below for getting help and info about</b> {BOT_NAME}."
@@ -467,12 +467,12 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="ABOUT", callback_data="Miko_support"
+                            text="About", callback_data="Miko_support"
                         ),
-                        InlineKeyboardButton(text="COMMAND", callback_data="help_back"),
+                        InlineKeyboardButton(text="Command", callback_data="help_back"),
                     ],
                     [
-                        InlineKeyboardButton(text="INSIDER", callback_data="insider_"),
+                        InlineKeyboardButton(text="Insider", callback_data="insider_"),
                     ],
                     [
                         InlineKeyboardButton(text="◁", callback_data="Miko_back"),
@@ -493,10 +493,10 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="DEVELOPER", url=f"tg://user?id={OWNER_ID}"
+                            text="Developer", url=f"tg://user?id={OWNER_ID}"
                         ),
                     ],
                     [
@@ -529,7 +529,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [
                         [
                             InlineKeyboardButton(
-                                text="HELP",
+                                text="Help",
                                 url="https://t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -545,7 +545,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 [
                     [
                         InlineKeyboardButton(
-                            text="OPEN IN PM",
+                            text="Buka Di Pm",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -553,7 +553,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="OPEN HERE",
+                            text="Buka Disini",
                             callback_data="help_back",
                         )
                     ],
@@ -720,7 +720,7 @@ async def get_settings(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [
                         [
                             InlineKeyboardButton(
-                                text="SETTINGS",
+                                text="Settings",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -779,7 +779,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    LOGGER.info("Mikobot is starting >> Using long polling.")
+    LOGGER.info("Bee Robot is starting >> Using long polling.")
     dispatcher.run_polling(timeout=15, drop_pending_updates=True)
 
 
