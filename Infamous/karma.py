@@ -47,7 +47,7 @@ START_BTN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="HELP", callback_data="Miko_support"),
+        InlineKeyboardButton(text="HELP", callback_data="Miko_"),
     ],
     [
         InlineKeyboardButton(text="DETAILS", callback_data="more_ai_handler"),
