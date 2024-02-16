@@ -77,12 +77,7 @@ async def ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton(
-                            "More Ai Gen ➪", callback_data="more_ai_handler"
-                        ),
-                    ],
-                    [
+                    [                        
                         InlineKeyboardButton("Home", callback_data="Miko_back"),
                     ],
                 ],
