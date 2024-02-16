@@ -111,12 +111,27 @@ async def more_ai_handler_callback(update: Update, context: ContextTypes.DEFAULT
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⇦ Back", callback_data="ai_handler"),
+                        InlineKeyboardButton("Back", callback_data="Miko_back"),
                     ],
                 ],
             ),
         )
-
+        
+        async def ai_more_ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    if query.data == "ai_more_ai_handler":
+        await query.answer()
+        await query.message.edit_text(
+            "Tersedia untuk Admin & Moderator\n\n/Admincache memperbarui daftar admin dan hak istimewa mereka.\n\n/Pengaturan memungkinkan Anda mengelola semua pengaturan bot dalam grup.\n\n/Ban memungkinkan Anda melarang pengguna dari grup tanpa memberinya kemungkinan untuk bergabung lagi menggunakan tautan grup.\n\n/Mute menempatkan pengguna dalam mode read-only. Dia bisa membaca tetapi dia tidak bisa mengirim pesan apa pun.\n\n/Kick melarang pengguna dari grup, memberinya kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Unban memungkinkan Anda menghapus pengguna dari daftar hitam grup, memberi mereka kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Info memberikan informasi tentang pengguna.\n\n/Admin memberikan daftar lengkap staf grup/admin!.",
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("Back", callback_data="Miko_back"),                        
+                    ],
+                ],
+            ),
+        )
 
 def get_readable_time(seconds: int) -> str:
     count = 0
