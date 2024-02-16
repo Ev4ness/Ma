@@ -3,9 +3,8 @@
 
 
 class Config(object):
-    # Configuration class for the bot
-
-    # Enable or disable logging
+    # Configuration class for the database
+    # Enable or disable log
     LOGGER = True
 
     # <================================================ REQUIRED ======================================================>
@@ -14,7 +13,7 @@ class Config(object):
     API_HASH = "7bc7d1f9b2f3d3f1bfd272db56ac0ba1"
 
     # Database configuration (PostgreSQL)
-    DATABASE_URL = "postgres://ierjlkr:OG4dxzO67Zret3Zii43Hhvujkg89WVry0n9KsHE@karma.db.elephantsql.com/ierjlkr"
+    DATABASE_URL = "postgres://xdzenzbh:KVpk3qQJ7TWr03B_-Bm-sXDe8y5lpopL@trumpet.db.elephantsql.com/xdzenzbh"
 
     # Event logs chat ID and message dump chat ID
     EVENT_LOGS = -1002133305794
