@@ -52,7 +52,7 @@ START_BTN = [
     [
         InlineKeyboardButton(text="DETAILS", callback_data="more_ai_handler"),
         InlineKeyboardButton(text="AI", callback_data="ai_handler"),
-        InlineKeyboardButton(text="𝖨𝖭𝖥𝖮", callback_data="ai_more_ai_handler"),
+        InlineKeyboardButton(text="𝖨𝖭𝖥𝖮", callback_data="git_source"),
     ],
     [
         InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
@@ -86,9 +86,6 @@ ALIVE_BTN = [
 ]
 
 HELP_STRINGS = """
-*Bee - Robot*
-
-*Here, you will find a list of all the available commands.*
-
-ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
+"*📝 Bantuan Perintah*"
+"Pilih Tombol Di Bawah Untuk Melihat Perintah Management"
 """
