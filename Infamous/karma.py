@@ -86,6 +86,6 @@ ALIVE_BTN = [
 ]
 
 HELP_STRINGS = """
-"*📝 Bantuan Perintah*"
-"Pilih Tombol Di Bawah Untuk Melihat Perintah Management"
+*📝 Bantuan Perintah*
+Pilih Tombol Di Bawah Untuk Melihat Perintah Management
 """
