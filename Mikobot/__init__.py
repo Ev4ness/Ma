@@ -169,7 +169,6 @@ else:
 # Add OWNER_ID to the DRAGONS and DEV_USERS sets
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(5907205317)
 # <=======================================================================================================>
 
 # <============================================== INITIALIZE APPLICATION =========================================================>
@@ -180,10 +179,10 @@ function = dispatcher.add_handler
 
 # <================================================ BOOT MESSAGE=======================================================>
 ALIVE_MSG = """
-💫 *MY SYSTEM IS STARTING, PLEASE WAIT FOR SOMETIME TO COMPLETE BOOT!*
+💫 *SISTEM SAYA DI MULAI, HARAP TUNGGU SAMPAI SELESAI!*
 
 
-*IF COMMANDS DON'T WORK CHECK THE LOGS*
+*JIKA PERINTAH TIDAK BEKERJA, PERIKSA DI LOG*
 """
 
 ALIVE_IMG = [
