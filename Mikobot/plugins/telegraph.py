@@ -69,5 +69,5 @@ __help__ = """
 » /tgm, /tmg, /telegraph*:* `get telegram link of replied media`
  """
 
-__mod_name__ = "TELEGRAPH"
+__mod_name__ = "T-Graph"
 # <================================================ END =======================================================>
