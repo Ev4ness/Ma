@@ -1,10 +1,3 @@
-# SOURCE https://github.com/Team-ProjectCodeX
-# CREATED BY https://t.me/O_okarma
-# PROVIDED BY https://t.me/ProjectCodeX
-# ➥ @MIKO_V2BOT ʏᴏᴜʀ ᴍᴇssᴀɢᴇ @ᴜsᴇʀɴᴀᴍᴇ
-# ➥ @MIKO_V2BOT @ᴜsᴇʀɴᴀᴍᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
-
-# TURN ON INLINE MODE FOR USE.
 
 # <============================================== IMPORTS =========================================================>
 import shortuuid
@@ -92,7 +85,7 @@ async def mainwhisper(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 [
                     [
                         InlineKeyboardButton(
-                            "📩 𝗦𝗵𝗼𝘄 𝗪𝗵𝗶𝘀𝗽𝗲𝗿 📩",
+                            "📩 Show Whisper 📩",
                             callback_data=f"whisper_{whisperId}",
                         )
                     ]
@@ -178,5 +171,5 @@ __help__ = """
 » @username your message
 """
 
-__mod_name__ = "WHISPER-MSG"
+__mod_name__ = "Whisper-Msg"
 # <==================================================== END ===================================================>
