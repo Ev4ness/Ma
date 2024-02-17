@@ -256,6 +256,6 @@ function(MUTE_HANDLER)
 function(UNMUTE_HANDLER)
 function(TEMPMUTE_HANDLER)
 
-__mod_name__ = "MUTE"
+__mod_name__ = "Mute"
 __handlers__ = [MUTE_HANDLER, UNMUTE_HANDLER, TEMPMUTE_HANDLER]
 # <================================================ END =======================================================>
