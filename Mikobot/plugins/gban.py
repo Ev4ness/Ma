@@ -514,7 +514,7 @@ __help__ = f"""
 
 ➠ Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect \
 you and your groups by removing spam flooders as quickly as possible.
-➠ *Note:* Users can appeal gbans or report spammers at @hydraX2support
+➠ *Note:* Users can appeal gbans or report spammers.
 """
 
 # <================================================ HANDLER =======================================================>
@@ -535,7 +535,7 @@ function(UNGBAN_HANDLER)
 function(GBAN_LIST)
 function(GBAN_STATUS)
 
-__mod_name__ = "ANTI-SPAM"
+__mod_name__ = "Anti-Spam"
 __handlers__ = [GBAN_HANDLER, UNGBAN_HANDLER, GBAN_LIST, GBAN_STATUS]
 
 if STRICT_GBAN:  # enforce GBANS if this is set
