@@ -35,7 +35,7 @@ async def afk(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reason = args[1]
         if len(reason) > 100:
             reason = reason[:100]
-            notice = "\nYour afk reason was shortened to 100 characters."
+            notice = "\nAlasan afk kamu dipersingkat menjadi 100 karakter."
     else:
         reason = ""
 
@@ -44,12 +44,12 @@ async def afk(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         if reason:
             await update.effective_message.reply_text(
-                f"➲ {fname} is now away! \n\n➦ Reason: <code>{reason}</code> \n {notice}",
+                f"➲ {fname} sekarang sedang pergi! \n\n➦ Reason: <code>{reason}</code> \n {notice}",
                 parse_mode="html",
             )
         else:
             await update.effective_message.reply_text(
-                "➲ {} is now away!{}".format(fname, notice),
+                "➲ {} sekarang sedang pergi!{}".format(fname, notice),
             )
     except BadRequest:
         pass
@@ -74,13 +74,13 @@ async def no_longer_afk(update: Update, context: ContextTypes.DEFAULT_TYPE):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "➲ {} is here!",
-                "➲ {} is back!",
-                "➲ {} is now in the chat!",
-                "➲ {} is awake!",
-                "➲ {} is back online!",
-                "➲ {} is finally here!",
-                "➲ Welcome back! {}",
+                " {} di sini!",
+                " {} kembali!",
+                " {} sekarang ada dalam obrolan!",
+                " {} sudah aktif!",
+                " {} kembali online!",
+                " {} akhirnya tiba di sini!",
+                "Selamat Datang kembali! {}",
             ]
             chosen_option = random.choice(options)
             await update.effective_message.reply_text(
@@ -160,14 +160,14 @@ async def check_afk(
         time = humanize.naturaldelta(datetime.now() - user.time)
 
         if not user.reason:
-            res = "➲ {} is afk.\n\n➦ Last seen {} ago.".format(
+            res = " {} telah Afk.\n\nTerakhir terlihat {} yang lalu.".format(
                 fst_name,
                 time,
             )
             await update.effective_message.reply_text(res)
         else:
             res = (
-                "➲ {} is afk.\n\n➦ Reason: <code>{}</code>\n➦ Last seen {} ago.".format(
+                " {} Telah afk.\n\nalasan: <code>{}</code>\nTerakhir terlihat {} yang lalu.".format(
                     html.escape(fst_name),
                     html.escape(user.reason),
                     time,
@@ -204,7 +204,7 @@ function(AFK_REGEX_HANDLER, AFK_GROUP)
 function(NO_AFK_HANDLER, AFK_GROUP)
 function(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)
 
-__mod_name__ = "AFK"
+__mod_name__ = "Afk"
 __command_list__ = ["afk"]
 __handlers__ = [
     (AFK_HANDLER, AFK_GROUP),
