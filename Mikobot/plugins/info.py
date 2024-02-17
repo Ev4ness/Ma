@@ -189,7 +189,7 @@ async def info(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 @support_plus
 async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    stats = "📊 <b>Miko-Bot's Statistics:</b>\n\n" + "\n".join(
+    stats = "📊 <b>Bot's Statistics:</b>\n\n" + "\n".join(
         [mod.__stats__() for mod in STATS]
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
@@ -215,7 +215,7 @@ INFO_HANDLER = CommandHandler(("info", "book"), info, block=False)
 function(STATS_HANDLER)
 function(INFO_HANDLER)
 
-__mod_name__ = "INFO"
+__mod_name__ = "Info"
 __command_list__ = ["info"]
 __handlers__ = [INFO_HANDLER, STATS_HANDLER]
 # <================================================ END =======================================================>
