@@ -51,7 +51,7 @@ START_BTN = [
     ],
     [
         InlineKeyboardButton(text="DETAILS", callback_data="more_ai_handler"),
-        InlineKeyboardButton(text="AI", callback_data="ai_handler"),
+        InlineKeyboardButton(text="AI", callback_data="git_source"),
         InlineKeyboardButton(text="𝖨𝖭𝖥𝖮", callback_data="insider_"),
     ],
     [
