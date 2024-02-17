@@ -48,7 +48,7 @@ async def getid(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Sticker ID to be sent
     sticker_id = (
-        "CAACAgIAAx0CanzPTAABASPCZQdU9NbQIol5TW1GU2zV4KfjDMEAAnccAALIWZhJPyYLf3FzPHswBA"
+        "CAACAgIAAxkBAAKsP2XQZoSOCxbxe2Ze3kdldL5rH57dAAJGPQACJV55S3dIYIsJ1gbXNAQ"
     )
 
     # Send the sticker
@@ -100,7 +100,7 @@ async def ping(_, m: Message):
     delta_ping = time() - start
 
     up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
-    image_url = "https://telegra.ph/file/f215a1c4adf25a5bad81b.jpg"
+    image_url = "https://mallucampaign.in/images/img_1708156519.jpg"
 
     # Send the image as a reply
     await replymsg.reply_photo(
@@ -133,5 +133,5 @@ __help__ = """
 » /id: reply to get user id.
 """
 
-__mod_name__ = "EXTRA"
+__mod_name__ = "Extra"
 # <================================================ END =======================================================>
