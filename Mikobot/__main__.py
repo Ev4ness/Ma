@@ -69,21 +69,29 @@ async def ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     if query.data == "ai_handler":
         await query.answer()
         await query.message.edit_text(
-            "*Artificial Intelligence Functions*:\n\n"
-            "All Commands:\n"
-            "/askgpt <write query>: A chatbot using GPT for responding to user queries.\n\n"
-            "/palm <write prompt>: Performs a Palm search using a chatbot.\n\n"
-            "/upscale <reply to image>: Upscales your image quality.",
+            "*Tersedia untuk Admin & Moderator:*\n\n/admincache memperbarui daftar admin dan hak istimewa mereka.\n\n/settings memungkinkan Anda mengelola semua pengaturan bot dalam grup.\n\n/Ban memungkinkan Anda melarang pengguna dari grup tanpa memberinya kemungkinan untuk bergabung lagi menggunakan tautan grup.\n\n/Mute menempatkan pengguna dalam mode read-only. Dia bisa membaca tetapi dia tidak bisa mengirim pesan apa pun.\n\n/Kick melarang pengguna dari grup, memberinya kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Unban memungkinkan Anda menghapus pengguna dari daftar hitam grup, memberi mereka kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Info memberikan informasi tentang pengguna.\n\n/Admin memberikan daftar lengkap staf grup/admin!.",
             parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup(
+             reply_markup=InlineKeyboardMarkup(
                 [
-                    [                        
-                        InlineKeyboardButton("Home", callback_data="Miko_back"),
+                    [
+                        InlineKeyboardButton(
+                            text="Music", callback_data="Miko_support"
+                        ),
+                        InlineKeyboardButton(text="Commands", callback_data="help_back"),
                     ],
-                ],
+                    [
+                        InlineKeyboardButton(text="Tools", callback_data="ai_handler"),
+                    ],
+                    [
+                        InlineKeyboardButton(text="Support", url=f"https://t.me/{SUPPORT_CHAT}"),
+                        InlineKeyboardButton(text="Developer", url=f"tg://user?id={OWNER_ID}"),
+                    ],
+                    [
+                        InlineKeyboardButton(text="◁", callback_data="Miko_back"),
+                    ],
+                ]
             ),
         )
-
 
 async def more_ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -413,7 +421,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     if query.data == "git_source":
         source_link = "https://t.me/SpotifyStream_Id"
         message_text = (
-            f"*Tersedia untuk Admin & Moderator:*\n\n/admincache memperbarui daftar admin dan hak istimewa mereka.\n\n/settings memungkinkan Anda mengelola semua pengaturan bot dalam grup.\n\n/Ban memungkinkan Anda melarang pengguna dari grup tanpa memberinya kemungkinan untuk bergabung lagi menggunakan tautan grup.\n\n/Mute menempatkan pengguna dalam mode read-only. Dia bisa membaca tetapi dia tidak bisa mengirim pesan apa pun.\n\n/Kick melarang pengguna dari grup, memberinya kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Unban memungkinkan Anda menghapus pengguna dari daftar hitam grup, memberi mereka kemungkinan untuk bergabung lagi dengan tautan grup.\n\n/Info memberikan informasi tentang pengguna.\n\n/Admin memberikan daftar lengkap staf grup/admin!."
+            f"*Artificial Intelligence Functions*:\n\nAll Commands:\n/askgpt write query: A chatbot using GPT for responding to user queries.\n\n/palm <write prompt>: Performs a Palm search using a chatbot.\n\n/upscale <reply to image>: Upscales your image quality."
         )
 
         # Adding the inline button
@@ -466,7 +474,11 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                         InlineKeyboardButton(text="Commands", callback_data="help_back"),
                     ],
                     [
-                        InlineKeyboardButton(text="Tools", callback_data="git_source"),
+                        InlineKeyboardButton(text="Tools", callback_data="ai_handler"),
+                    ],
+                    [
+                        InlineKeyboardButton(text="Support", url=f"https://t.me/{SUPPORT_CHAT}"),
+                        InlineKeyboardButton(text="Developer", url=f"tg://user?id={OWNER_ID}"),
                     ],
                     [
                         InlineKeyboardButton(text="◁", callback_data="Miko_back"),
@@ -487,18 +499,23 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="Music", callback_data="Miko_support"
                         ),
-                        InlineKeyboardButton(
-                            text="Developer", url=f"tg://user?id={OWNER_ID}"
-                        ),
+                        InlineKeyboardButton(text="Commands", callback_data="help_back"),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Miko_"),
+                        InlineKeyboardButton(text="Tools", callback_data="ai_handler"),
+                    ],
+                    [
+                        InlineKeyboardButton(text="Support", url=f"https://t.me/{SUPPORT_CHAT}"),
+                        InlineKeyboardButton(text="Developer", url=f"tg://user?id={OWNER_ID}"),
+                    ],
+                    [
+                        InlineKeyboardButton(text="◁", callback_data="Miko_back"),
                     ],
                 ]
             ),
-        )
+        )           
     elif query.data == "Miko_back":
         first_name = update.effective_user.first_name
         await query.message.edit_text(
