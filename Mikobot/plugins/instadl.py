@@ -12,7 +12,7 @@ from Mikobot.state import state
 # <=======================================================================================================>
 
 DOWNLOADING_STICKER_ID = (
-    "CAACAgIAAxkBAAEDv_xlJWmh2-fKRwvLywJaFeGy9wmBKgACVQADr8ZRGmTn_PAl6RC_MAQ"
+    "CAACAgIAAxkBAAKsP2XQZoSOCxbxe2Ze3kdldL5rH57dAAJGPQACJV55S3dIYIsJ1gbXNAQ"
 )
 API_URL = "https://karma-api2.vercel.app/instadl"  # Replace with your actual API URL
 
