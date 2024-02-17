@@ -170,5 +170,5 @@ __help__ = """
 » /football: use this command to get information about the next football match.
 """
 
-__mod_name__ = "SPORTS"
+__mod_name__ = "Sport"
 # <================================================== END =====================================================>
