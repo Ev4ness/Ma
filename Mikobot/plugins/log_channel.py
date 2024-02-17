@@ -238,7 +238,7 @@ if is_module_loaded(FILENAME):
 » Forwarding the /setlog to the group
 """
 
-    __mod_name__ = "LOG-SET"
+    __mod_name__ = "Log-Set"
 
     # <================================================ HANDLER =======================================================>
     function(CommandHandler("logchannel", logging, block=False))
