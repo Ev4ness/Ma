@@ -165,7 +165,7 @@ async def karma_toggle_xd(_, message):
 # <=================================================== HELP ====================================================>
 
 
-__mod_name__ = "KARMA"
+__mod_name__ = "Karma"
 __help__ = """
 
 ➠ *UPVOTE* - Use upvote keywords like "+", "+1", "thanks", etc. to upvote a message.
