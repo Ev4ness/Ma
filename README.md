@@ -1,88 +1,20 @@
-<div align="center">
-  <img src="https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg" width="600">
-</div>
+<h1 align="center">Hi 👋, I'm bee</h1>
+<h3 align="center">A passionate frontend developer from Indonesia</h3>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=DC143C&center=true&lines=──+「+YAE+ダ+MIKO+」+──;An+Advanced+Group+Management+Bot.&width=600&height=180">
-</div>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ev4ness&label=Profile%20views&color=0e75b6&style=flat" alt="ev4ness" /> </p>
 
-# ⚙️ INSIDER
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ev4ness" alt="ev4ness" /></a> </p>
 
-- **Smart Moderation:** Advanced moderation tools for better control over your group
-- **Custom Commands:** Create custom commands to automate repetitive tasks
-- **Interactive UI:** A sleek and responsive user interface for an intuitive experience
-- **Fully Asynchronous**
-- **Python 3.11 Support**
-- **python-telegram-bot 20+**
-- **Telegram MTProto API Framework for Python**
-- **MongoDB, SQL are used as a database**
+- 🔭 I’m currently working on **Bot Telegram**
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<p align="center">
-<a href="https://github.com/Infamous-Hydra/YaeMiko/stargazers"><img src="https://img.shields.io/github/stars/Infamous-Hydra/YaeMiko?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/Infamous-Hydra/YaeMiko/network/members"> <img src="https://img.shields.io/github/forks/Infamous-Hydra/YaeMiko?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/Infamous-Hydra/YaeMiko/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://pypi.org/project/python-telegram-bot/"> <img src="https://img.shields.io/pypi/v/python-telegram-bot?color=white&label=ptb&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/Infamous-Hydra/YaeMiko/commits/Infamous-Hydra"> <img src="https://img.shields.io/github/last-commit/Infamous-Hydra/YaeMiko?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<h3 align="left">Connect with me:</h3>
+<p align="left">
 </p>
 
-## ✔️ SETUP
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://canvasjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs" width="40" height="40"/> </a> <a href="https://offeescript.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/coffeescript/coffeescript-original-wordmark.svg" alt="coffeescript" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.gtk.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/GTK_logo.svg" alt="gtk" width="40" height="40"/> </a> <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://jasmine.github.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jasmine/jasmine-icon.svg" alt="jasmine" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://rubyonrails.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> <a href="https://www.wxwidgets.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/WxWidgets.svg" alt="wx_widgets" width="40" height="40"/> </a> <a href="https://zapier.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" alt="zapier" width="40" height="40"/> </a> </p>
 
-**Star ⭐ the Repository:**
-Show your support by starring the repository. Your encouragement is vital for the project's growth.
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ev4ness&show_icons=true&locale=en&layout=compact" alt="ev4ness" /></p>
 
-**Fork 🍴 the Repository:**
-Before making any deployments or modifications, fork the repository. This ensures that you have your own copy to work on independently. 
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ev4ness&" alt="ev4ness" /></p>
 
-Your contributions drive the project forward. Thank you for your support!
-
-## 🛠️ DEPLOYMENT ON LOCAL HOST / VPS
-
-Initiate deployment with these sophisticated steps:
-
-```bash
-sudo apt-get update && sudo apt-get upgrade -y           # 1. Upgrade and Update System
-
-sudo apt-get install python3-pip -y          # 2. Install Required Packages
-
-sudo pip3 install -U pip          # 3. Upgrade Pip
-
-git clone https://github.com/Infamous-Hydra/YaeMiko && cd YaeMiko           # 4. Clone the Repository
-
-pip3 install -U -r requirements.txt          # 5. Install Required Packages
-
-vi variables.py           # 6. Modify Variables
-# Press `I` to begin editing. Press `Ctrl+C` to save, then `:wq` or `:qa` to exit.
-
-sudo apt install tmux && tmux           # 7. Install Tmux (Optional)
-
-python3 -m Mikobot         # 8. Run the Bot
-# Press `Ctrl+b` and then `d` to exit Tmux Session
-```
-━━━━━━━━━━━━━━━━━━━━
-
-<h1 align="center">Deploy on Heroku</h1>
-
-<p align="center">Click the button below to deploy YAE ダ MIKO on Heroku and enjoy its enhanced features and user-friendly interface!</p>
-
-<p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/Vygaee/Ma.git">
-        <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-    </a>
-</p>
-
-<h1 align="center"><img src="./.github/yae-miko.gif" /></h1>
-
-## CREDITS
-The foundation of the application is rooted in the initial efforts undertaken by [PaulSonOfLars](https://github.com/PaulSonOfLars)
-+ [lostb053](https://github.com/lostb053) > Anime
-+ [TheHamkerCat](https://github.com/TheHamkerCat) > Python-Arq
-+ [ProjectCodeX](https://github.com/Team-ProjectCodeX) > Modules
-
-Others in the commit history and files. If anything is missing, feel free to  [![gmail](https://img.shields.io/badge/mail-Here-red?style=for-the-badge&logo=gmail)](mailto:makandu2054@gmail.com)  or submit a pull request.
-
-> Try this bot [@MIKO_V2BOT](https://t.me/MIKO_V2BOT); it's made with this repository for demonstration purposes.
